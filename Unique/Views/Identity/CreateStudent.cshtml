@@ -1,0 +1,19 @@
+﻿
+<h1>Create New Student</h1>
+
+
+<form action="/Identity/CreateStudent" method="post">
+    <label>User Name</label>
+    <input type="text" name="username" />
+    <label>Password</label>
+    <input type="password" name="password" id="password" />
+    <label>First Name</label>
+    <input type="text" name="firstName" />
+    <label>Last Name</label>
+    <input type="text" name="lastName" />
+    <input type="hidden" name="access" value="Student" />
+    <input type="text" name="access" />
+    <label>Address</label>
+    <textarea name="homeAddress"></textarea>
+    <button type="submit">Submit</button>
+</form>
